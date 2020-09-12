@@ -1,0 +1,19 @@
+import React from "react";
+import PropTypes from "prop-types";
+import { MenuCloseIcon } from "../../../icons/Icons";
+
+const NavMenuHeader = ({ setIsOpenPanel }) => {
+  return (
+    <div className="w-full border-gray-400 border-b-2">
+      <div className="p-5 flex justify-end">
+        <button onClick={() => setIsOpenPanel(false)}>
+          <MenuCloseIcon className="w-6 h-6" />
+        </button>
+      </div>
+    </div>
+  );
+};
+
+NavMenuHeader.propTypes = {};
+
+export default NavMenuHeader;
