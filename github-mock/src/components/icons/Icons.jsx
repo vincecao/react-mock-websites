@@ -19,10 +19,10 @@ export const MenuCloseIcon = ({ className }) => (
 );
 
 MenuCloseIcon.propTypes = {
-  className: PropTypes.string,
+  className: PropTypes.string
 };
 MenuCloseIcon.defaultProps = {
-  className: "",
+  className: ""
 };
 
 export const MenuExpandIcon = ({ className }) => (
@@ -43,10 +43,10 @@ export const MenuExpandIcon = ({ className }) => (
 );
 
 MenuExpandIcon.propTypes = {
-  className: PropTypes.string,
+  className: PropTypes.string
 };
 MenuExpandIcon.defaultProps = {
-  className: "",
+  className: ""
 };
 
 export default { MenuCloseIcon, MenuExpandIcon };

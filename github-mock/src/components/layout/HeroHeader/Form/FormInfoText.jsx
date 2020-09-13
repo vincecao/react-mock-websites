@@ -10,7 +10,7 @@ const FormInfoText = ({ children }) => {
 };
 
 FormInfoText.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.element.isRequired
 };
 
 export default FormInfoText;

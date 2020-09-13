@@ -3,15 +3,16 @@ import PropTypes from "prop-types";
 import FormElement from "./Form/FormElement";
 import FormInfoText from "./Form/FormInfoText";
 import FormButton from "./Form/FormButton";
+import Anchor from "../Anchor";
 
 const HeroHeader = (props) => {
   return (
     <div className="w-full bg-gray-800">
-      <div className="max-w-4xl m-auto py-10 md:grid md:grid-flow-col md:grid-cols-2">
-        <div className="text-white p-6 m-auto">
-          <p className="text-6xl text-bold">Built for developers</p>
-          <p className="text-xl text-gray-500">
-            Lorem ipsum is a development platform inspired by the way you work.
+      <div className="max-w-4xl m-auto py-10 grid md:grid-flow-col md:grid-cols-2">
+        <div className="text-white p-6 m-auto text-center md:text-left">
+          <p className="text-6xl text-bold mb-3">Built for developers</p>
+          <p className="text-lg text-gray-500">
+            LoremHub is a development platform inspired by the way you work.
             From{" "}
             <a className="text-white underline" href="#">
               open source
@@ -40,7 +41,7 @@ const HeroHeader = (props) => {
               </>
             </FormInfoText>
 
-            <FormButton text="Sign up for Github" />
+            <FormButton text="Sign up for LoremHub" />
 
             <FormInfoText>
               <>

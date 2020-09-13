@@ -4,7 +4,7 @@ import { MenuCloseIcon } from "../../../icons/Icons";
 
 const NavMenuHeader = ({ setIsOpenPanel }) => {
   return (
-    <div className="w-full border-gray-400 border-b-2">
+    <div className="w-full bg-gray-200 border-gray-400 border-b">
       <div className="p-5 flex justify-end">
         <button onClick={() => setIsOpenPanel(false)}>
           <MenuCloseIcon className="w-6 h-6" />

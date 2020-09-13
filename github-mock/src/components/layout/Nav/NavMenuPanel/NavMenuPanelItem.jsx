@@ -28,11 +28,11 @@ const NavMenuPanelItem = ({ text, subMenus }) => {
 
 NavMenuPanelItem.propTypes = {
   text: PropTypes.string.isRequired,
-  subMenus: PropTypes.arrayOf(PropTypes.shape()),
+  subMenus: PropTypes.arrayOf(PropTypes.shape())
 };
 
 NavMenuPanelItem.defaultProps = {
-  subMenus: null,
+  subMenus: null
 };
 
 export default NavMenuPanelItem;

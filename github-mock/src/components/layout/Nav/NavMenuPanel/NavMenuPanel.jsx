@@ -17,13 +17,13 @@ const NavMenuPanel = ({ setIsOpenPanel }) => {
           />
         ))}
         <input
-          className="rounded bg-white m-2 pl-2 border-gray-400 border-2"
-          placeholder="Search Github"
+          className="rounded bg-white m-2 pl-2 border-gray-400 border"
+          placeholder="Search LoremHub"
         />
         <button className="rounded-md text-gray-800 m-2 px-2 mr-5 inline">
           <p>Sign in</p>
         </button>
-        <button className="rounded-md border-gray-400 border-2 text-gray-800 m-2 px-2 mr-5">
+        <button className="rounded-md border-gray-400 border text-gray-800 m-2 px-2 mr-5">
           <p>Sign up</p>
         </button>
       </div>

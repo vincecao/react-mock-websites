@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const NavMenuSubItem = ({ subMenus, isExpand }) => {
   return (
-    <div className="pb-5 border-gray-400 border-b-2">
+    <div className="pb-5 border-gray-400 border-b">
       {subMenus &&
         isExpand &&
         subMenus.map((menu) => (
@@ -32,12 +32,12 @@ const NavMenuSubItem = ({ subMenus, isExpand }) => {
 
 NavMenuSubItem.propTypes = {
   isExpand: PropTypes.bool,
-  subMenus: PropTypes.arrayOf(PropTypes.shape()),
+  subMenus: PropTypes.arrayOf(PropTypes.shape())
 };
 
 NavMenuSubItem.defaultProps = {
   isExpand: false,
-  subMenus: null,
+  subMenus: null
 };
 
 export default NavMenuSubItem;

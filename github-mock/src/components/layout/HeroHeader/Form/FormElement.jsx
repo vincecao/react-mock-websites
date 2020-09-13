@@ -24,11 +24,11 @@ const FormElement = ({ target, type, ErrorMsg }) => {
 FormElement.propTypes = {
   target: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
-  ErrorMsg: PropTypes.string,
+  ErrorMsg: PropTypes.string
 };
 
 FormElement.defaultProps = {
-  ErrorMsg: "",
+  ErrorMsg: ""
 };
 
 export default FormElement;

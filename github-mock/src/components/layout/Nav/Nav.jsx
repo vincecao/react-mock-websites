@@ -21,7 +21,7 @@ const MenuIcon = () => (
 
 const Nav = ({ setIsOpenPanel }) => {
   return (
-    <div className="w-screen bg-gray-900 h-12 flex justify-between px-8">
+    <div className="w-full bg-gray-900 h-12 flex justify-between px-8 lg:px-2">
       <img
         src="assets/img/logo.png"
         className="object-contain h-full"
@@ -31,12 +31,12 @@ const Nav = ({ setIsOpenPanel }) => {
       <div className="flex">
         <input
           className="rounded bg-gray-700 w-64 m-2 pl-2 hidden lg:block"
-          placeholder="Search Github"
+          placeholder="Search LoremHub"
         />
         <button className="rounded-md text-white m-2 px-2 mr-5 hidden lg:block">
           <p>Sign in</p>
         </button>
-        <button className="rounded-md border-white border-2 text-white m-2 px-2 mr-5">
+        <button className="rounded-md border-white border text-white m-2 px-2 mr-5">
           <p>Sign up</p>
         </button>
         <button

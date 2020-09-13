@@ -2,7 +2,13 @@
 
 Practice and mock websites by using React and other stacks on frontend.
 
-- github-mock (in-progress) : _React & tailwindcss_, [CodeSandbox](https://codesandbox.io/s/github-mock-6v68q)
+Please go for each subfolder for each mock project
 
-![](./screenshots/github-mock/1.png)
-![](./screenshots/github-mock/4.jpg)
+### Github Mock - LoremHub (in-progress) :
+
+_React & tailwindcss_
+
+[Code Sandbox](https://codesandbox.io/s/github-mock-fedjf)
+
+![](./screenshots/github-mock/index-1.png)
+![](./screenshots/github-mock/mobile2.jpg)
