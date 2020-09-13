@@ -1,12 +1,14 @@
-# Github Mock - LoremHub
+# Github Mock - LoremHub (_in process_)
 
-Please check [Code Sandbox](https://codesandbox.io/s/github-mock-fedjf)
+_Built only by `React` & `tailwindcss`_
 
-_in process_
+- Target website: [Github (Sept, 2020)](https://github.com/)
+- Mock preview: [LoremHub](https://fedjf.csb.app/)
 
-Using only `react` & pure `tailwindcss` mock [Github](www.github.com).
+More preview code can be check on
+[Code Sandbox](https://codesandbox.io/s/github-mock-fedjf).
 
-## Finished components
+## Finished particial features
 
 - Simulated current github responsive design (sm, md & lg view)
 - Nav menu dropdown and panel
