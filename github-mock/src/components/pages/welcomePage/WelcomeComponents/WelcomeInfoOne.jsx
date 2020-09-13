@@ -2,12 +2,12 @@ import React from "react";
 
 const WelcomeInfoOne = () => {
   return (
-    <div className="text-center p-3 mx-10">
+    <div className="text-center p-3 mx-3 md:mx-8">
       <p className="text-lg text-gray-500 m-auto mb-4">
         More than 2.9 million businesses and organizations use LoremHub
       </p>
       <div
-        style={{ maxWidth: 500 }}
+        style={{ maxWidth: 450 }}
         className="m-auto text-gray-700 grid grid-flow-col grid-cols-4 md:grid-cols-6 grid-row grid-rows-3 md:grid-rows-2 gap-6"
       >
         <div className="w-14 h-14 m-auto">

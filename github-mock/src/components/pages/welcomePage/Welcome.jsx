@@ -5,9 +5,14 @@ import NavMenuPanel from "../../layout/Nav/NavMenuPanel/NavMenuPanel";
 import WelcomeCardOne from "./WelcomeComponents/WelcomeCardOne";
 import WelcomeCardTwo from "./WelcomeComponents/WelcomeCardTwo";
 import WelcomeInfoOne from "./WelcomeComponents/WelcomeInfoOne";
-import WelcomeInfoTwo from "./WelcomeComponents/WelcomeInfoTwo";
-import WelcomeInfoThree from "./WelcomeComponents/WelcomeInfoThree";
-import WelcomeInfoFour from "./WelcomeComponents/WelcomeInfoFour";
+import WelcomeInfoTeams from "./WelcomeComponents/WelcomeInfoTeams/WelcomeInfoTeams";
+import WelcomeInfoThree from "./WelcomeComponents/WelcomeInfoTeams/WelcomeInfoThree";
+import WelcomeInfoFour from "./WelcomeComponents/WelcomeInfoTeams/WelcomeInfoFour";
+import WelcomeInfoSecurity from "./WelcomeComponents/WelcomeInfoSecurity/WelcomeInfoSecurity";
+import WelcomeInfoSix from "./WelcomeComponents/WelcomeInfoSecurity/WelcomeInfoSix";
+import WelcomeInfoIntegrations from "./WelcomeComponents/WelcomeInfoIntegrations/WelcomeInfoIntegrations";
+import WelcomeInfoCommunity from "./WelcomeComponents/WelcomeInfoCommunity/WelcomeInfoCommunity";
+import WelcomeFooterFormSection from "./WelcomeComponents/WelcomeFooterFormSection/WelcomeFooterFormSection";
 
 const Welcome = () => {
   const [isOpenPanel, setIsOpenPanel] = useState(false);
@@ -21,9 +26,19 @@ const Welcome = () => {
       <WelcomeCardOne />
       <WelcomeCardTwo />
       <WelcomeInfoOne />
-      <WelcomeInfoTwo />
+
+      <WelcomeInfoTeams />
       <WelcomeInfoThree />
       <WelcomeInfoFour />
+
+      <WelcomeInfoSecurity />
+      <WelcomeInfoSix />
+
+      <WelcomeInfoIntegrations />
+
+      <WelcomeInfoCommunity />
+
+      <WelcomeFooterFormSection />
     </div>
   );
 };

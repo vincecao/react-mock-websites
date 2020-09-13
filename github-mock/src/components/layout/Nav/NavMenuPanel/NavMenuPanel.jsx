@@ -2,11 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import NavMenuItem from "./NavMenuPanelItem";
 import NavMenuHeader from "./NavMenuHeader";
-import { myMenu } from "../../../../data/menuList";
+import { myMenu } from "../../../../data/data";
 
 const NavMenuPanel = ({ setIsOpenPanel }) => {
   return (
-    <div className="fixed w-64 max-h-screen min-h-screen overflow-auto shadow bg-white top-0 right-0">
+    <div className="fixed w-64 max-h-screen min-h-screen overflow-auto shadow-lg bg-white top-0 right-0">
       <NavMenuHeader setIsOpenPanel={setIsOpenPanel} />
       <div className="px-5">
         {myMenu.map((menu) => (

@@ -7,7 +7,7 @@ const NavMenuPanelItem = ({ text, subMenus }) => {
   const [isExpand, setIsExpand] = useState(false);
 
   return (
-    <div className="py-5 w-full">
+    <div className="pt-5 w-full border-gray-400 border-b">
       <button
         className="flex justify-between w-full"
         onClick={() => setIsExpand(!isExpand)}

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const NavMenuSubItem = ({ subMenus, isExpand }) => {
   return (
-    <div className="pb-5 border-gray-400 border-b">
+    <div className="pb-2">
       {subMenus &&
         isExpand &&
         subMenus.map((menu) => (

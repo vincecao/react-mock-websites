@@ -26,7 +26,7 @@ const HeroHeader = (props) => {
           </p>
         </div>
         <div className="px-16 py-6 md:px-6 hidden sm:block">
-          <form className="bg-white shadow-md rounded-lg px-4 pt-6 pb-8 mb-4">
+          <form className="bg-white text-gray-700  shadow-md rounded-lg px-4 pt-6 pb-8 mb-4">
             <FormElement target="Username" type="text" />
             <FormElement target="Email" type="text" />
             <FormElement target="Password" type="password" />

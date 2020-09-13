@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 const FormButton = ({ text }) => {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between w-full">
       <button
-        className="w-full my-5 bg-green-500 hover:bg-green-700 text-white font-bold py-5 rounded focus:outline-none focus:shadow-outline"
+        className="w-full my-5 p-5 bg-green-500 hover:bg-green-700 text-white font-bold py-5 rounded focus:outline-none focus:shadow-outline"
         type="button"
       >
         {text}

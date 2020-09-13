@@ -2,7 +2,7 @@ import React from "react";
 
 const WelcomeCardTwo = () => {
   return (
-    <div className="rounded-lg shadow-lg bg-blue-800 grid lg:grid-flow-col lg:grid-cols-3 gap-4 p-6 border mx-8 my-10">
+    <div className="rounded-lg shadow-lg bg-blue-800 grid lg:grid-flow-col lg:grid-cols-3 gap-4 p-6 border mx-3 sm:mx-8 my-10">
       <div className="text-left lg:col-span-2 flex flex-col lg:flex-row">
         <div>
           <p className="w-12 m-2 ml-0 text-center text-sm text-green-400 border-green-400 border rounded-full">

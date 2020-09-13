@@ -3,7 +3,7 @@ import WelcomeInfoOne from "./WelcomeInfoOne";
 
 const WelcomeCardOne = () => {
   return (
-    <div className="rounded-lg shadow-lg bg-white grid lg:grid-flow-col lg:grid-cols-2 gap-4 p-8 border mx-8 my-10">
+    <div className="rounded-lg shadow-lg bg-white grid lg:grid-flow-col lg:grid-cols-2 gap-4 p-8 border mx-3 sm:mx-8 my-10">
       <div className="text-center lg:text-left lg:w-64">
         <h1 className="font-semibold">Get started with LoremHub Enterprise</h1>
         <p className="text-gray-700 my-3">

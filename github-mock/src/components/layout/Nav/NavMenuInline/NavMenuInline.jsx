@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { myMenu } from "../../../../data/menuList";
+import { myMenu } from "../../../../data/data";
 import NavMenuItemInline from "./NavMenuItemInline";
 
 const NavMenuInline = ({ className }) => {
