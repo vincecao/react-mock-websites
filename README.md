@@ -2,17 +2,25 @@
 
 Practice and mimic famous websites by using React and other stacks on frontend. Built from the scratch entirely.
 
-Please go for each subfolder for each project.
+Please check details on each subfolder of the project.
 
 ### Github Mock - LoremHub (in-progress) :
 
-_React & tailwindcss_
+_Built exclusively with React & Tailwindcss_
 
 - Target website: [Github (Sept, 2020)](https://github.com/)
-- Mock preview: [LoremHub](https://fedjf.csb.app/)
+- Mock preview: [LoremHub](https://6v68q.csb.app/)
 
 More preview code can be check on
-[Code Sandbox](https://codesandbox.io/s/github-mock-fedjf).
+[Code Sandbox](https://codesandbox.io/s/github-mock-6v68q).
 
-![](./screenshots/github-mock/index-1.png)
-![](./screenshots/github-mock/mobile2.jpg)
+![](./screenshots/github-mock/desktop.jpg)
+![](./screenshots/github-mock/mobile-narrow.jpg)
+
+# Sample Image
+
+[Unsplash](https://unsplash.com/)
+
+# License
+
+MIT

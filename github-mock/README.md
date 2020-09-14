@@ -1,23 +1,28 @@
-# Github Mock - LoremHub (_in process_)
+# Github Mock - LoremHub
 
-_Built only by `React` & `tailwindcss`_
+_Built exclusively with `React` & `Tailwindcss`_
 
 - Target website: [Github (Sept, 2020)](https://github.com/)
-- Mock preview: [LoremHub](https://fedjf.csb.app/)
+- Mock preview: [LoremHub](https://6v68q.csb.app/)
 
 More preview code can be check on
-[Code Sandbox](https://codesandbox.io/s/github-mock-fedjf).
+[Code Sandbox](https://codesandbox.io/s/github-mock-6v68q).
 
 ## Finished particial features
 
-- Simulated current github responsive design (sm, md & lg view)
+- Simulate the current github responsive design (sm, md & lg view)
 - Nav menu dropdown and panel
 
-![](../screenshots/github-mock/index-1.png)
-![](../screenshots/github-mock/index-7.png)
-![](../screenshots/github-mock/index-6.png)
-![](../screenshots/github-mock/mobile.jpg)
-![](../screenshots/github-mock/mobile2.jpg)
+_Desktop_
+![](../screenshots/github-mock/desktop.jpg)
+
+![](../screenshots/github-mock/mobile-wide.jpg)
+
+_Mobile_
+![](../screenshots/github-mock/mobile-narrow.jpg)
+
+_Nav dropdown & panel_
+![](../screenshots/github-mock/nav.jpg)
 
 Stacks:
 
