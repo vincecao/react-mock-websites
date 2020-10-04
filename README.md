@@ -4,7 +4,7 @@ Practice and mimic famous websites by using React and other stacks on frontend. 
 
 Please check details on each subfolder of the project.
 
-### Github Mock - LoremHub (in-progress) :
+### Github Mock - LoremHub:
 
 _Built exclusively with React & Tailwindcss_
 
@@ -16,6 +16,21 @@ More preview code can be check on
 
 ![](./screenshots/github-mock/desktop.jpg)
 ![](./screenshots/github-mock/mobile-narrow.jpg)
+
+---
+
+### New York Times Mock - Old York Times:
+
+_Built exclusively with React & Tailwindcss_
+
+- Target website: [The New York Times (Oct, 2020)](https://www.nytimes.com/)
+- Mock preview: [The Old York Times](https://ejh0y.csb.app/)
+
+More preview code can be check on
+[Code Sandbox](https://codesandbox.io/s/nytimes-mock-ejh0y).
+
+![](./screenshots/nytimes-mock/desktop-lg.jpg)
+![](./screenshots/nytimes-mock/mobile.jpg)
 
 # Sample Image
 

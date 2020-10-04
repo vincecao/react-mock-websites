@@ -1,0 +1,43 @@
+{
+  "name": "mytimes-mock",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "luxon": "1.25.0",
+    "@testing-library/jest-dom": "5.11.4",
+    "@testing-library/react": "11.0.2",
+    "@testing-library/user-event": "12.1.4",
+    "history": "5.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.3"
+  },
+  "scripts": {
+    "start": "yarn prestart && react-scripts start",
+    "build": "yarn prebuild && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "prestart": "postcss ./src/index.tailwind.css -c ./tailwind.config.js -o ./src/index.css",
+    "prebuild": "postcss ./src/index.tailwind.css -c ./tailwind.config.js -o ./src/index.css",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.8.6"
+  }
+}
