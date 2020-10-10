@@ -1,0 +1,32 @@
+{
+  "name": "youtube-mock",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.3",
+    "uuid": "8.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.8.6"
+  },
+  "scripts": {
+    "start": "yarn prestart && react-scripts start",
+    "build": "yarn prebuild && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "prestart": "postcss ./src/index.tailwind.css -c ./tailwind.config.js -o ./src/index.css",
+    "prebuild": "postcss ./src/index.tailwind.css -c ./tailwind.config.js -o ./src/index.css",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
