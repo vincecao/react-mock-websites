@@ -5,7 +5,7 @@ _Built exclusively with `React` & `Tailwindcss`_
 - Target website: [Github (Sept, 2020)](https://github.com/)
 - Mock preview: [LoremHub](https://6v68q.csb.app/)
 
-More preview code can be check on
+You can view more preview codes on
 [Code Sandbox](https://codesandbox.io/s/github-mock-6v68q).
 
 ## Finished particial features

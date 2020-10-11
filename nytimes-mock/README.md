@@ -5,7 +5,7 @@ _Built exclusively with `React` & `Tailwindcss`_
 - Target website: [The New York Times (Oct, 2020)](https://www.nytimes.com/)
 - Mock preview: [The Old York Times](https://ejh0y.csb.app/)
 
-More preview code can be check on
+You can view more preview codes on
 [Code Sandbox](https://codesandbox.io/s/nytimes-mock-ejh0y).
 
 ## Finished particial features
